@@ -102,8 +102,8 @@ jobs:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           TAG: latest
         run: |
-          docker-compose pull
-          docker-compose up -d
+          docker compose pull
+          docker compose up -d
           echo "Application deployed successfully!"
 
 
