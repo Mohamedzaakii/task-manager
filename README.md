@@ -140,7 +140,7 @@ docker compose down
   - Deploy: Pulls latest images and deploys with Docker Compose
 
     
-## 🔑 Environment Variables
+## 🔑 GitHub Actions Secrets
 - DOCKER_USERNAME: Docker Hub username	
 - DOCKER_PASSWORD:	Docker Hub access token (Read & Write)
 
@@ -169,4 +169,5 @@ docker compose logs frontend
 ## 📝 License
 
 This project is licensed under the MIT License.
+
 
