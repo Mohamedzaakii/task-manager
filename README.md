@@ -1,6 +1,13 @@
 # Task Manager - Full Stack Application
-A full-stack task management application built with **NestJS** (backend) and **Next.js** (frontend), fully containerized with Docker and automated CI/CD pipeline using GitHub Actions.
-![Frontend UI](images/frontend.png)
+<p align="center">
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS"/>
+  <img src="https://img.shields.io/badge/Node.js-20-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+  <img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white" alt="Jest"/>
+</p>
 
 ## ✨ Features
 - ✅ Create, read, update, and delete tasks
@@ -60,7 +67,8 @@ task-manager/
 │ ├── backend-ci.yml 
 │ └── frontend-ci.yml 
 ├── docker-compose.yml 
-├── .gitignore 
+├── .gitignore
+├── images/ 
 └── README.md 
 ```
 ## 🚀 Local Development
@@ -77,7 +85,6 @@ npm run start:dev
 ```
 - Backend runs at: http://localhost:3001
 - API Docs: http://localhost:3001/api/docs
-
 ![API-Docs](images/api-docs.png)
 
 ### 3. Frontend Setup
@@ -116,8 +123,8 @@ docker compose down
 ## 🔄 CI/CD Pipeline (GitHub Actions)
 - ### Backend Pipeline 
 ![Frontend-Pipeline](images/backend-pipeline.png)  
-- ### Backend Pipeline 
-![Frontend-Pipeline](images/frontend-pipeline.png)  
+- ### Frontend Pipeline 
+![Frontend-Pipeline](images/frontend-pipeline.png) 
 
 ### Backend Pipeline (.github/workflows/backend-ci.yml)
 - Trigger: Push to main/develop with changes in backend/**
@@ -162,3 +169,4 @@ docker compose logs frontend
 ## 📝 License
 
 This project is licensed under the MIT License.
+
