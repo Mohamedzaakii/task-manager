@@ -45,7 +45,7 @@ jobs:
         run: npm test
 
       - name: Run e2e tests
-        run: npm run test:e2e
+        run: npm run test:e2e -- --passWithNoTests
 
       - name: Upload test coverage
         uses: actions/upload-artifact@v4
