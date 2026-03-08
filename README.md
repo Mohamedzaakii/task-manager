@@ -85,7 +85,6 @@ cd backend
 npm install
 npm run start:dev
 ```
-- Backend runs at: http://localhost:3001
 - API Docs: http://localhost:3001/api/docs
 ![API-Docs](images/api-docs.png)
 
@@ -171,6 +170,7 @@ docker compose logs frontend
 ## 📝 License
 
 This project is licensed under the MIT License.
+
 
 
 
