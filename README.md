@@ -9,6 +9,8 @@
   <img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white" alt="Jest"/>
 </p>
 
+![Frontend](images/frontend.png)
+
 ## ✨ Features
 - ✅ Create, read, update, and delete tasks
 - ✅ Responsive UI
@@ -169,5 +171,6 @@ docker compose logs frontend
 ## 📝 License
 
 This project is licensed under the MIT License.
+
 
 
